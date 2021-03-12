@@ -1,0 +1,27 @@
+.gap100{
+    padding: 200px 0px;
+}
+
+body{
+    font-family: 'Poppins';
+    font-size:27px;
+}
+
+.text{
+    color:#143959;
+    font-size: 80px;
+    margin:0px 5px;
+    line-height: 1em;
+    word-spacing: -0.1em;
+}
+.text1{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin:0px 3px;
+    line-height: 1em;
+    word-spacing: -0.1em;
+}
+.boutton{
+    margin-top:  -10px;
+}
+
