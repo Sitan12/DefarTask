@@ -26,16 +26,17 @@
                         </div>
                         <!-- profession -->
                         <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Profession') }}</label>
+                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Role') }}</label>
 
                             <div class="col-md-6">
-                                <select name="profession" id="profession" class="form-control @error('profession') is-invalid @enderror" value="{{ old('profession') }}" required autocomplete="profession" autofocus>
+                                <select name="role" id="role" class="form-control @error('role') is-invalid @enderror" value="{{ old('role') }}" required autocomplete="role" autofocus>
+                                <option value="admin">Administrateur</option>
                                 <option value="stagiaire">Stagiaire</option>
                                 <option value="coach">Coach</option>
                                 </select>
                                 <!-- <input id="profession" type="text" class="form-control @error('profession') is-invalid @enderror" name="profession" value="{{ old('profession') }}" required autocomplete="profession" autofocus> -->
 
-                                @error('profession')
+                                @error('role')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
